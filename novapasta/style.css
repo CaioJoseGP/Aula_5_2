@@ -1,0 +1,104 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    color: black;
+    background-color: white; 
+  }
+  
+  h1, h2 {
+    color: #ffd700;
+    text-shadow: 1px 1px 3px whitesmoke;
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify; 
+    text-indent: 20px; 
+  }
+  
+  .content {
+    margin: 18px;
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+  }
+  
+  .introducao {
+    margin-bottom: 20px;
+  }
+
+  .introducao p {
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #6495ED;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+  
+  .ingressos {
+    margin-top: 50px;
+  }
+  
+  .ingressos h2 {
+    text-align: center;
+  }
+  
+  .ingressos ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .ingressos ul li {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .preco {
+    font-weight: bold;
+  }
+  
+  .o-que-levar {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .o-que-levar h2 {
+    text-align: center;
+  }
+  
+  .o-que-levar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .o-que-levar ul li {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffd700;
+    padding: 10px;
+  }
+  
+  .footer p {
+    text-align: right;
+    font-size: 12px;
+  } 
+  
+  figcaption {
+    color: white;
+  }

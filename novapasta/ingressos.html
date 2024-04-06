@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Compra de Ingressos - WEEBox</title>
+
+    <style>
+        .container {
+            position: absolute;
+            background: linear-gradient(to bottom, #000000, #1a1a1a);
+            border-radius: 14px;
+            margin-left: 550px;
+            max-width: 400px;
+            margin-top: 100px;
+            padding: 20px;
+            border: solid 8px;
+            border-color: blue;
+          }
+
+          .container .comprar label {
+            color: white;
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="comprar">
+            <h2 id="comprar">Comprar Ingresso:</h2>
+            <form action="processar_compra.php" method="post">
+              <label for="nome">Nome:</label><br>
+              <input type="text" id="nome" name="nome" required><br>
+              <label for="email">E-mail:</label><br>
+              <input type="email" id="email" name="email" required><br>
+              <label for="data">Data do Ingresso:</label><br>
+        
+              <select id="data" name="data" required>
+                <option value="15/04/2024">15 de Abril de 2024</option>
+                <option value="20/04/2024">20 de Abril de 2024</option>
+              </select><br>
+        
+              <label for="quantidade">Quantidade:</label><br>
+              <input type="number" id="quantidade" name="quantidade" min="1" required><br>
+              <input type="submit" value="Comprar">
+            </form>
+          </div>  
+        </div>
+    </div>
+</body>
+</html>
